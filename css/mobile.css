@@ -62,8 +62,12 @@
   .col-scope {
     margin-right: 0px;
   }
+  /* Điều chỉnh khoảng cách giữa các column khi hiển thị theo chiều dọc */
   .row-inner {
     gap: 24px;
+  }
+  .row-inner-2 {
+    margin-bottom: 24px;
   }
   .goal,
   .scope,
