@@ -1,0 +1,84 @@
+@media only screen and (max-width: 767px) {
+  /*---- Điều chỉnh phần nav-bar trên mobile -----*/
+  .nameposition {
+    display: none; /* Làm mất phần hình ảnh cá nhân */
+  }
+  #nav-bar .container {
+    flex-direction: column; /* Chỉnh lại phần hiển thị của nav-bar theo chiều dọc */
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+  #nav-bar .container a {
+    border: none;
+    padding: 6px;
+  }
+
+  /*---- Điều chỉnh phần chứng chỉ trên mobile -----*/
+  .chungchi {
+    margin: 0;
+    border-bottom: 2px solid #d6c08d; /* Đường viền dưới ngăn cách từng chứng chỉ */
+    border-left: none;
+    border-top: none;
+    padding: 40px;
+  }
+  .fourth {
+    display: none;
+  }
+
+  /* ---- Điều chỉnh phần dự án hiển thị trên mobile ----*/
+  .infoduan {
+    display: flex;
+    flex-direction: column; /* Xoay phần thông tin thời gian và div chứa (nơi làm, vị trí) hiển thị theo chiều dọc */
+    gap: 8px;
+  }
+  .user-lamp {
+    display: flex;
+    flex-direction: column; /* Xoay div chứa nơi làm và vị trí hiển thị theo chiều dọc */
+    gap: 8px;
+  }
+  .table-duan td {
+    padding: 8px;
+  }
+
+  /* Điều chỉnh phần footer */
+  #footer ul span {
+    display: none; /* Ẩn phần text cảu các contact theo yêu cầu */
+  }
+
+  /* Điều chỉnh font-size và khoảng cách  */
+  #footer a {
+    font-size: 150%;
+  }
+  #footer i {
+    font-size: 150%;
+  }
+  #footer li {
+    margin-right: 8px;
+  }
+
+  /****** ĐIỀU CHỈNH HIỂN THỊ CHO PHẦN PROJECT CHARTER *****/
+
+  .col-goal,
+  .col-scope {
+    margin-right: 0px;
+  }
+  .row-inner {
+    gap: 24px;
+  }
+  .goal,
+  .scope,
+  .team,
+  .primary,
+  .timeline {
+    flex-direction: column; /* Điều chỉnh chiều cảu flex để thể hiện nội dung theo chiều dọc */
+  }
+  .row-inner i {
+    text-align: center; /* Căn giữa cho các icon */
+  }
+  .timeline {
+    align-items: flex-start; /* Cho phần số trong timeline nằm ở lề trái */
+  }
+  .timeline span {
+    margin: 8px 0px; /* căn chỉnh khoảng cách cho phần số trong timeline */
+  }
+}

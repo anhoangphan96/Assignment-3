@@ -1,0 +1,91 @@
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  /*---- Điều chỉnh phần nav-bar trên tablet -----*/
+  .nameposition {
+    display: none; /* Làm mất phần hình ảnh cá nhân */
+  }
+  /*---- Điều chỉnh khoảng cách phần thông tin cá nhân trên tablet -----*/
+  #about .container {
+    margin: 0;
+  }
+  /* ---- Điều chỉnh chiều rộng của phần job-info trên tablet để vùng hiển thị nội dung rộng hơn phù hợp với width tablet ---*/
+  #job-info .container {
+    max-width: 90%;
+  }
+  /*Điều chỉnh khoảng cách giữa các li để phù hợp màn hình tablet */
+  .main-content ul li {
+    padding: 8px 0;
+  }
+  .true,
+  .false {
+    width: 48px; /* Điều chỉnh thanh điểm trong phần thang điểm các kỹ năng */
+  }
+
+  /* ---- Điều chỉnh chiều rộng của phần chứng chỉ trên tablet để vùng hiển thị nội dung rộng hơn phù hợp với width tablet ---*/
+
+  #certificate .container {
+    width: 90%;
+    padding: 32px 0;
+  }
+  /* Điều chỉnh layout hình ảnh và nội dung trong từng chứng chỉ */
+  .chungchi {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .chungchi img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .noidung {
+    max-width: 100%;
+  }
+
+  /* ---- Điều chỉnh chiều rộng của phần chứng chỉ trên tablet để vùng hiển thị nội dung rộng hơn phù hợp với width tablet ---*/
+  #project .container {
+    max-width: 90%;
+  }
+  .duan .infoduan {
+    padding: 16px 12px;
+  }
+
+  .user-lamp {
+    display: flex;
+    flex-direction: column; /* Điều chỉnh hiển thị dạng flex -column cho phần user và vị trí trong dự án */
+  }
+  .table-duan td {
+    padding: 8px 4px;
+  }
+
+  /* Điều chỉnh kích thước của các liên hệ trong phần footer */
+  #footer a {
+    font-size: 140%;
+  }
+  #footer i {
+    font-size: 140%;
+  }
+
+  /***** ĐIỀU CHỈNH PHẦN PROJECT CHARTER CHO MÀN HÌNH TABLET *****/
+
+  .col-goal,
+  .col-scope {
+    margin-right: 0px;
+  }
+  .row-inner {
+    gap: 24px;
+  }
+  .goal,
+  .scope,
+  .team,
+  .primary,
+  .timeline {
+    flex-direction: column; /* Điều chỉnh chiều cảu flex để thể hiện nội dung theo chiều dọc */
+  }
+  .row-inner i {
+    text-align: center; /* Căn giữa cho các icon */
+  }
+  .timeline {
+    align-items: flex-start; /* Cho phần số trong timeline nằm ở lề trái */
+  }
+  .timeline span {
+    margin: 8px 0px; /* căn chỉnh khoảng cách cho phần số trong timeline */
+  }
+}
